@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>More People in Harm's Way, Fewer Storm Deaths per Person</title>
+<meta name="description" content="An economics-based look at U.S. storm risk, exposure, and adaptation using NOAA, Census, IPCC, CDC, and NBER evidence." />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="hero">
+  <div class="site-shell hero-inner">
+    <div>
+      <div class="eyebrow">Econ 238 · Storm risk and adaptation</div>
+      <h1>More People in Harm’s Way,<br><span>Fewer Storm Deaths per Person.</span></h1>
+      <p class="lede">Official U.S. data show that deaths from tornadoes, floods, and hurricanes have generally fallen over time. The drop looks even larger once we account for population growth—even while more people live in hurricane-prone coastal counties.</p>
+    </div>
+    <aside class="hero-card" aria-label="Main takeaway">
+      <div class="big">≈65% lower</div>
+      <p>Estimated storm-death rate per person: about 1.85 deaths per million in the 1940s versus about 0.65 in 2020–24.</p>
+    </aside>
+  </div>
+</header>
+<nav class="topnav" aria-label="Page navigation">
+  <div class="site-shell">
+    <div class="navlinks">
+      <a href="#mortality">Storm deaths</a><a href="#exposure">Exposure</a><a href="#economics">Economics</a><a href="#heat">Heat</a><a href="#sources">Sources</a>
+    </div>
+    <a class="download-btn" href="Storm_Adaptation_Poster_Econ238.pdf" download>Download 18×24 poster PDF</a>
+  </div>
+</nav>
+<main class="site-shell">
+  <section class="section" id="mortality">
+    <div class="section-head"><div class="kicker">1</div><div><h2>Storm deaths went down. The per-person risk fell even more.</h2><p class="section-intro">Looking only at raw totals can hide an important denominator: the U.S. population more than doubled over this period.</p></div></div>
+    <div class="grid-2">
+      <article class="panel">
+        <img class="chart" src="assets/raw_fatalities.svg" alt="Grouped bar chart of average annual U.S. tornado, flood, and hurricane fatalities by decade from 1940 through 2024." />
+        <p class="caption">Average annual deaths from tornadoes, floods, and hurricanes generally declined after the 1970s, though individual disasters can make a decade look much worse.</p>
+        <p class="source-line">Source: NOAA/NWS Weather Related Fatality and Injury Statistics. 2020–24 is a partial decade.<sup><a href="#ref1">[1]</a></sup></p>
+      </article>
+      <article class="panel">
+        <img class="chart" src="assets/death_intensity.svg" alt="Line chart showing combined tornado, flood, and hurricane deaths per one million U.S. residents by decade." />
+        <div class="callout"><strong>Why the denominator matters:</strong> raw combined deaths fell from about 262 per year in the 1940s to about 218 in 2020–24, but the population-adjusted rate fell from about 1.85 to 0.65 deaths per million.</div>
+        <p class="source-line">Population estimates use U.S. Census counts and estimates.<sup><a href="#ref2">[2]</a></sup></p>
+      </article>
+    </div>
+    <div class="metric-row">
+      <div class="metric"><strong>262.3</strong><span>combined deaths per year, 1940s</span></div>
+      <div class="metric"><strong>217.8</strong><span>combined deaths per year, 2020–24*</span></div>
+      <div class="metric"><strong>239.8</strong><span>estimated average annual deaths, 1940–2024</span></div>
+    </div>
+  </section>
+
+  <section class="section" id="exposure">
+    <div class="section-head"><div class="kicker">2</div><div><h2>At the same time, more people live in hurricane-prone coastal areas.</h2><p class="section-intro">Exposure matters. A storm can become more costly—or threaten more lives—simply because more people and property are in its path.</p></div></div>
+    <div class="exposure-wrap">
+      <article class="panel">
+        <img class="chart" src="assets/coast_population.svg" alt="Bar chart showing population in 185 Atlantic and Gulf coastline counties rising from 51.9 million in 2000 to 60.2 million in 2017." />
+        <p class="caption">The Census Bureau reports that the 185 Atlantic and Gulf coastline counties it identifies as most vulnerable to hurricanes grew from 51.9 million people in 2000 to 60.2 million in 2017—a 16% increase.<sup><a href="#ref3">[3]</a></sup></p>
+      </article>
+      <div>
+        <aside class="plain-note">
+          <h3>What this establishes</h3>
+          <p>More people were living in hurricane-exposed coastline counties by 2017 than in 2000. That means the amount of people and property potentially in harm’s way increased.</p>
+        </aside>
+        <aside class="warning" style="margin-top:18px">
+          <h3>Important caution</h3>
+          <p>Population growth is <strong>not</strong> the same as domestic migration. It also reflects births and international immigration. And moving to a southern state does not automatically mean moving into a hurricane zone or floodplain. IRS county-to-county migration files are a better tool for isolating internal migration.<sup><a href="#ref4">[4]</a></sup></p>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="economics">
+    <div class="section-head"><div class="kicker">3</div><div><h2>Economics changes the question from “Is there risk?” to “What is the cheapest way to reduce it?”</h2><p class="section-intro">Risk depends on both the hazard and our exposure to it. We can try to change the hazard, change where people and property are located, or make exposed places safer.</p></div></div>
+    <article class="panel econ">
+      <h3>Illustrative “move to higher ground” calculation</h3>
+      <p>The assignment gives a $600 billion estimate for vulnerable structures. If those structures last about 50 years, roughly 2%—about $12 billion—would naturally be replaced each year. If rebuilding in safer locations adds 15% to the replacement cost:</p>
+      <ul class="econ-list">
+        <li><strong>$12B/yr</strong>capital replaced as it depreciates</li>
+        <li><strong>$1.8B/yr</strong>extra cost for safer locations</li>
+        <li><strong>≈0.0055%</strong>of a $33T economy</li>
+      </ul>
+      <p class="source-line" style="color:#bdccd5">This is an assumption-driven classroom exercise, not a forecast. The $600B figure comes from the assignment’s Nordhaus-based framing.</p>
+    </article>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><div class="kicker">4</div><div><h2>Why disaster losses can rise even when protection improves.</h2><p class="section-intro">The IPCC’s SREX report emphasizes that long-run increases in disaster losses are strongly tied to rising exposure and vulnerability.</p></div></div>
+    <div class="mini-grid">
+      <article class="mini"><h3>Exposure</h3><p>More people, homes, businesses, and infrastructure are located where storms can hit. That alone can increase total losses.<sup><a href="#ref5">[5]</a></sup></p></article>
+      <article class="mini"><h3>Vulnerability</h3><p>Two communities facing the same storm can have very different outcomes because of building quality, warnings, evacuation, wealth, insurance, and emergency response.</p></article>
+      <article class="mini"><h3>Adaptation</h3><p>If exposure rises while deaths per person fall, that pattern is consistent with better protection. It does not, by itself, prove which adaptation caused the decline.</p></article>
+    </div>
+  </section>
+
+  <section class="section" id="heat">
+    <div class="section-head"><div class="kicker">5</div><div><h2>Heat deaths are a useful warning: adaptation is not automatic.</h2><p class="section-intro">Heat-related mortality is more volatile than the storm-fatality series, and the 1995 Chicago heat wave shows how much social conditions and infrastructure can matter.</p></div></div>
+    <div class="grid-2">
+      <article class="panel"><h3>1995: a vulnerability shock</h3><p>NWS data show a large national heat-death spike in 1995. CDC analysis of the Chicago heat wave found especially high risk among older people and people who were socially isolated, while access to air conditioning and social contact were protective.<sup><a href="#ref6">[6]</a></sup></p><p class="caption">The lesson is not that temperature does not matter. It is that the same temperature can produce very different death tolls depending on buildings, energy access, public warnings, and behavior.</p></article>
+      <article class="panel"><h3>Burke et al. measure something different</h3><p>Burke and coauthors estimate <em>temperature-attributable mortality</em> using statistical relationships between temperature and deaths. That is much broader than NWS counts of deaths directly recorded under weather-event categories.<sup><a href="#ref7">[7]</a></sup></p><div class="callout"><strong>Do not compare the numbers as if they are the same metric.</strong> One is an event-counting system; the other estimates how much overall mortality changes with temperature.</div></article>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="butwait">
+      <div class="question">“But wait—does this prove Americans have adapted?”</div>
+      <p>No. The evidence supports a narrower claim: storm deaths per person have fallen while exposure in hurricane-prone coastal counties has grown. That is <strong>consistent with adaptation</strong>, but other changes—storm mix, reporting, demographics, where growth happened within counties, and chance—can also affect the numbers. Good economics means noticing both the pattern and what the pattern cannot prove.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="poster-strip">
+      <div><h3>Want the one-page version?</h3><p>The matching 18×24 poster tells the same story in a print-ready format.</p></div>
+      <a class="download-btn" href="Storm_Adaptation_Poster_Econ238.pdf" download>Download poster PDF</a>
+    </div>
+  </section>
+</main>
+
+<section class="sources" id="sources">
+  <div class="site-shell">
+    <h2>Sources & methods</h2>
+    <ol class="refs">
+      <li id="ref1"><strong>NOAA / National Weather Service.</strong> “Weather Related Fatality and Injury Statistics.” <a href="https://www.weather.gov/hazstat">weather.gov/hazstat</a>.</li>
+      <li id="ref2"><strong>U.S. Census Bureau.</strong> Historical population change and decennial population data. <a href="https://www.census.gov/data/tables/time-series/dec/popchange-data-text.html">census.gov population tables</a>.</li>
+      <li id="ref3"><strong>U.S. Census Bureau.</strong> “About 60.2M Live in Areas Most Vulnerable to Hurricanes” and <em>Coastline America</em> (2019). <a href="https://www.census.gov/library/visualizations/2019/demo/coastline-america.html">Census visual</a>.</li>
+      <li id="ref4"><strong>Internal Revenue Service.</strong> Statistics of Income county-to-county migration data. <a href="https://www.irs.gov/statistics/soi-tax-stats-migration-data">IRS migration data</a>.</li>
+      <li id="ref5"><strong>IPCC.</strong> <em>Managing the Risks of Extreme Events and Disasters to Advance Climate Change Adaptation (SREX)</em>, 2012. <a href="https://www.ipcc.ch/site/assets/uploads/2018/03/SREX_Full_Report-1.pdf">Full report</a>.</li>
+      <li id="ref6"><strong>CDC.</strong> “Heat-Related Mortality — Chicago, July 1995.” <a href="https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5226a2.htm">CDC/MMWR</a>.</li>
+      <li id="ref7"><strong>Burke et al.</strong> “Understanding and Addressing Temperature Impacts on Mortality,” NBER Working Paper 34313 (2025). <a href="https://www.nber.org/papers/w34313">NBER paper</a>.</li>
+    </ol>
+    <div class="method"><strong>Method note.</strong> “Death intensity” = average annual tornado + flood + hurricane deaths divided by estimated average U.S. population, multiplied by 1,000,000. The 2020–24 period is partial. NWS hurricane/tropical-cyclone statistics classify wind deaths under the hurricane category; related flood and tornado deaths are listed under those hazards instead.</div>
+  </div>
+</section>
+<footer class="footer"><div class="site-shell">Econ 238 · Fall 2026 · Designed as a public-facing summary of the assignment evidence.</div></footer>
+</body>
+</html>
