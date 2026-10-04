@@ -1,0 +1,4 @@
+scenario,data_type,old_withdrawal_units,old_consumption_units,old_return_flow_units,new_efficiency_fraction,recoverable_share_fraction,saved_capacity_reused_fraction,new_withdrawal_units,new_consumption_units,new_return_flow_units,withdrawal_saving_units,net_basin_saving_units
+additional_supply_assumption,illustrative,100,60,40,0.8,0,0,75,60,15,25,25
+recoverable_returns,illustrative,100,60,40,0.8,1,0,75,60,15,25,0
+full_capacity_reused,illustrative,100,60,40,0.8,1,1,100,80,20,0,-20
