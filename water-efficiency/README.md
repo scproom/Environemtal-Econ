@@ -41,3 +41,9 @@ Use local measurements, define spatial boundaries and recovery times, model wate
 The seven-source bibliography and claim-specific links are in `index.html`. Review statistics are 80.1% of 176 cases for withdrawal reductions and 83.2% of 161 cases for consumption increases, from Pérez-Blanco et al. (2020). These are different subsets of heterogeneous modeled and observed case studies; do not present them as paired farm observations or a probability of rebound.
 
 The public design reference was https://rochesterrizzo.github.io/Rizzo-Hours/show-me/example-exhibit/. The exhibit was prepared October 2026. Repository destination: https://github.com/scproom/Environemtal-Econ/tree/main/water-efficiency/. The existing GitHub Pages workflow publishes the repository root, including this subfolder. The exhibit URL is https://scproom.github.io/Environemtal-Econ/water-efficiency/.
+
+## Interactive 3D view and mobile layout
+
+The live calculator drives four CSS 3D tanks: consumption, recoverable returns, unwithdrawn water, and nonrecoverable flow. Every tank uses the same 0–100 unit scale; its height encodes units. The four fills sum to the original 100 units. Tap a tank for its definition and comparison with the baseline. Drag horizontally or use the labeled rotation buttons. Scenario presets and sliders work with touch and keyboard. At widths under 700px, tanks use two columns, scenario buttons stack, and result cards reflow. Reduced-motion preferences disable tank transitions.
+
+`sources-qr.svg` is a static QR code with a four-module quiet zone. It encodes `https://scproom.github.io/Environemtal-Econ/water-efficiency/#sources`. It was generated with qrcode 8.2 and independently decoded with zxing-cpp 2.3.0. The QR and its download link appear beside the prominent source introduction; all seven source links remain on the page.
