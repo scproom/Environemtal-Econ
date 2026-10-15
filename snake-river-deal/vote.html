@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Official Ballot: Proposition 238 | Would You Take This Deal?</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero" style="padding-bottom:48px">
+  <div class="wrap ballot">
+    <p class="kicker" style="margin-top:8px">Official Ballot &middot; Proposition 238</p>
+    <h1 style="font-size:clamp(30px,5vw,44px)">Breach Four Snake River Dams and Pay to Replace Their Benefits</h1>
+  </div>
+</header>
+
+<main>
+  <section class="card ballot">
+    <p class="label">Ballot Question</p>
+    <p class="ballot-q">Shall Congress direct the U.S. Army Corps of Engineers to breach Ice Harbor, Lower Monumental, Little Goose and Lower Granite dams on the lower Snake River by December 31, 2032, and appropriate up to $20 billion over 15 years to first secure replacement carbon-free electricity, upgrade rail and highways for grain shippers, extend irrigation intakes, and compensate affected ports and communities?</p>
+    <p style="margin-top:16px"><b>Explanation.</b> A YES vote breaches four federal dams so Snake River salmon and steelhead get back about 140 miles of free-flowing river. In exchange, the region gives up about 1,000 average megawatts of carbon-free hydropower and barge shipping for about 3.8 million tons of cargo a year. Federal taxpayers pay up to $20 billion (about $60 per American) to replace that power, move grain to rail and road, and compensate farms, ports and towns. A NO vote keeps the dams as they are.</p>
+    <p style="font-size:14px;color:var(--muted)"><a href="index.html">Read the full proposition, arguments for and against, and sources</a></p>
+  </section>
+
+  <section class="card ballot">
+    <p class="label">Would you take this deal?</p>
+    <p style="margin-top:0">Choose <b>YES</b>, <b>NO</b>, or <b>YES, IF...</b> and tell us what would have to change. Voting is anonymous; no sign-in or email is collected.</p>
+    <div id="ballot"></div>
+  </section>
+</main>
+
+<footer>Econ 238, Fall 2026 &middot; Week Seven: Let's Make a Deal</footer>
+
+<script>
+  // Paste your Google Form's embed link here (Send > <> Embed > copy the src="..." URL).
+  // It looks like: https://docs.google.com/forms/d/e/XXXXXXXX/viewform?embedded=true
+  var FORM_EMBED_URL = "PASTE_GOOGLE_FORM_EMBED_URL_HERE";
+
+  var box = document.getElementById("ballot");
+  if (FORM_EMBED_URL.indexOf("docs.google.com/forms") === -1) {
+    box.innerHTML = '<p class="notice">The ballot box opens soon. Please check back shortly.</p>';
+  } else {
+    box.innerHTML = '<iframe class="form-frame" title="Proposition 238 ballot" src="' + FORM_EMBED_URL +
+      '">Loading the ballot...</iframe><p style="font-size:14px">Ballot not loading? <a href="' +
+      FORM_EMBED_URL.replace("?embedded=true", "") + '">Open it in a new page</a>.</p>';
+  }
+</script>
+</body>
+</html>

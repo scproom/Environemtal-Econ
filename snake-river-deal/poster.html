@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Poster: Four Dams for a Fish?</title>
+<style>
+  @page { size: letter portrait; margin: 0; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: #555; }
+  body { font-family: Arial, Helvetica, sans-serif; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .tip { max-width: 8.5in; margin: 16px auto; color: #fff; font-size: 14px; text-align: center; }
+  .sheet {
+    width: 8.5in; height: 11in; margin: 0 auto 24px; overflow: hidden;
+    background: radial-gradient(circle at 85% 0%, #2a5470 0%, #10283a 55%, #0b1d2b 100%);
+    color: #fff; padding: 0.55in 0.6in 0.5in; display: flex; flex-direction: column;
+  }
+  .kicker { color: #f5c46b; font-size: 13pt; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; margin: 0; }
+  h1 { font-family: Georgia, serif; font-weight: 400; font-size: 49pt; line-height: 1.02; margin: 10px 0 0; }
+  h1 em { color: #f5c46b; }
+  .art { margin: 18px -0.6in 0; }
+  .art svg { display: block; width: 100%; height: auto; }
+  .number { display: flex; align-items: baseline; gap: 16px; margin-top: 16px; }
+  .number b { font-family: Georgia, serif; font-weight: 400; font-size: 70pt; color: #f5c46b; line-height: 1; }
+  .number span { font-size: 16pt; line-height: 1.3; }
+  .bottom { margin-top: auto; display: flex; gap: 22px; align-items: center; border-top: 2px solid #f5c46b; padding-top: 16px; }
+  .qr { background: #fff; padding: 10px; border-radius: 8px; flex: none; }
+  .qr img, .qr canvas { display: block; width: 1.65in !important; height: 1.65in !important; }
+  .invite h2 { font-family: Georgia, serif; font-weight: 400; font-size: 25pt; margin: 0 0 6px; }
+  .invite p { margin: 0; font-size: 13pt; line-height: 1.35; color: #d7e3ea; }
+  .invite .vote { margin-top: 10px; color: #fff; font-weight: 700; font-size: 14pt; }
+  .vote i { font-style: normal; display: inline-block; border: 2px solid #f5c46b; border-radius: 6px; padding: 1px 8px; margin-right: 6px; }
+  @media print { html, body { background: none; } .tip { display: none; } .sheet { margin: 0; } }
+</style>
+</head>
+<body>
+
+<p class="tip">Print on letter paper with "Background graphics" turned ON and margins set to "None". Check the QR code with your phone before you print.</p>
+
+<div class="sheet">
+  <p class="kicker">Proposition 238 &middot; Would you take the deal?</p>
+  <h1>Tear down four dams <em>to bring back a fish?</em></h1>
+
+  <div class="art">
+    <svg viewBox="0 0 850 400" role="img" aria-label="A salmon leaping at the face of a towering concrete dam">
+      <defs>
+        <linearGradient id="res" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2d6a88"/><stop offset="1" stop-color="#173f56"/></linearGradient>
+        <linearGradient id="riv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3f8fb3"/><stop offset="1" stop-color="#14384d"/></linearGradient>
+        <linearGradient id="dam" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9aa6ad"/><stop offset=".5" stop-color="#c9d1d5"/><stop offset="1" stop-color="#8e9aa1"/></linearGradient>
+        <linearGradient id="fish" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff7a4d"/><stop offset="1" stop-color="#c8322a"/></linearGradient>
+      </defs>
+      <!-- hills -->
+      <path d="M0 150 L120 95 L230 135 L330 80 L420 120 L520 70 L640 125 L740 90 L850 130 L850 400 L0 400 Z" fill="#0d2232"/>
+      <!-- reservoir behind the dam (high water) -->
+      <rect x="0" y="150" width="330" height="250" fill="url(#res)"/>
+      <!-- dam wall -->
+      <path d="M300 120 L470 120 L520 400 L270 400 Z" fill="url(#dam)"/>
+      <g stroke="#7d8a91" stroke-width="3">
+        <line x1="335" y1="120" x2="320" y2="400"/><line x1="370" y1="120" x2="362" y2="400"/>
+        <line x1="405" y1="120" x2="404" y2="400"/><line x1="440" y1="120" x2="446" y2="400"/>
+      </g>
+      <rect x="292" y="108" width="186" height="16" fill="#e5eaed"/>
+      <!-- low river below the dam -->
+      <path d="M500 300 Q600 290 700 305 T850 300 L850 400 L515 400 Z" fill="url(#riv)"/>
+      <g stroke="#9fd0e6" stroke-width="3" fill="none" opacity=".7">
+        <path d="M560 330 q20 -8 40 0 t40 0"/><path d="M690 350 q20 -8 40 0 t40 0"/><path d="M600 375 q20 -8 40 0 t40 0"/>
+      </g>
+      <!-- jump arc -->
+      <path d="M760 300 Q660 60 520 170" fill="none" stroke="#f5c46b" stroke-width="4" stroke-dasharray="4 12" stroke-linecap="round"/>
+      <!-- splash -->
+      <g fill="#cfe9f5"><circle cx="765" cy="296" r="6"/><circle cx="780" cy="286" r="4"/><circle cx="748" cy="288" r="4"/><circle cx="772" cy="276" r="3"/></g>
+      <!-- salmon -->
+      <g transform="translate(610 118) rotate(20)">
+        <path d="M-70 0 C-40 -32 40 -30 70 -4 C40 22 -40 26 -70 0 Z" fill="url(#fish)"/>
+        <path d="M66 -4 L108 -30 L98 -2 L110 26 Z" fill="#c8322a"/>
+        <path d="M-10 -24 L8 -42 L22 -22 Z" fill="#c8322a"/>
+        <path d="M-28 6 Q0 14 40 4" stroke="#ffd2bf" stroke-width="3" fill="none"/>
+        <circle cx="-50" cy="-5" r="5" fill="#10283a"/><circle cx="-51" cy="-6" r="1.6" fill="#fff"/>
+        <path d="M-70 0 L-58 4" stroke="#10283a" stroke-width="3"/>
+      </g>
+    </svg>
+  </div>
+
+  <div class="number">
+    <b>$60</b>
+    <span>per American, one time. That's what it would cost to replace everything these four dams do, and give a river back to its salmon.</span>
+  </div>
+
+  <div class="bottom">
+    <div class="qr" id="qr"></div>
+    <div class="invite">
+      <h2>Read the whole deal. Then vote.</h2>
+      <p>What we gain, what we give up, who pays, and the part nobody wants to talk about.</p>
+      <p class="vote"><i>YES</i><i>NO</i><i>YES, IF...</i> Scan to cast your anonymous vote.</p>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script>
+  var SITE_URL = "https://scproom.github.io/Environemtal-Econ/snake-river-deal/";
+  new QRCode(document.getElementById("qr"), { text: SITE_URL, width: 320, height: 320, colorDark: "#10283a", colorLight: "#ffffff", correctLevel: QRCode.CorrectLevel.M });
+</script>
+</body>
+</html>
