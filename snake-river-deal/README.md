@@ -15,3 +15,5 @@
 Display the printed poster publicly for one week, take a real photo, recruit at least 12 different voters, and complete the results and reflection. Submit the photo, working public link, final totals, interesting comments and reflection to Blackboard. These have not been fabricated or submitted automatically.
 
 The assignment deadline is October 18, 2026, before 6:59 pm. A new display beginning October 14 or later cannot complete a week before that deadline; record actual dates and follow the assignment's exemption procedure as applicable.
+
+[View the requirement-by-requirement audit](REQUIREMENTS-CHECK.md).
