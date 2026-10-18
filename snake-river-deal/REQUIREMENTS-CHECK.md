@@ -6,18 +6,18 @@ Checked against the original Week Seven Assignment, Eco 238, Fall 2026 — Drill
 
 | Requirement | Evidence / status |
 |---|---|
-| Single printed page | `public-poster.pdf` is one US Letter page (612 × 792 points). Browser poster uses the same vector composition. |
-| Dramatic, provocative title | “Breach four dams. Bet on wild salmon. Would you take the deal?” |
-| Persuasive / emotional graphic | A salmon faces four barriers in an illustrated river. The image is explicitly conceptual, not a map. |
-| Number, fact or comparison | Proposed federal funding of up to $20 billion over 15 years. |
-| Clear invitation to the full proposal | “Read the full deal. Then cast your vote.” |
-| QR code to the proposal website | Decoded from the rendered PDF and verified against the public project URL. |
-| Voting available and advertised | YES / NO / YES, IF on the poster; linked website leads to the live form. |
-| Simple hook, not detailed analysis | Brief proposal, payer, replacement condition, tradeoff and invitation. Detailed arguments and sources stay on the website. |
+| Single printed page | `public-poster.pdf` is one US Letter page (612 × 792 points), printed from `poster.html` (October 18 redesign matching the website's fonts, colors and river illustration). |
+| Dramatic, provocative title | “Clean power. Wild salmon. A hard choice.” (same headline as the website), topped with “Would you take the deal?” |
+| Persuasive / emotional graphic | The website's illustration: a salmon facing four barriers in a winding river. Labeled as conceptual, not a map. |
+| Number, fact or comparison | “$20 billion”: the proposed federal cap over 15 years, compared to roughly $60 for every American, paid once. |
+| Clear invitation to the full proposal | “Read both sides. Then vote.” with what the site contains (full proposal, case for and against, evidence, ballot). |
+| QR code to the proposal website | Uses the same `qr.svg` previously decoded and verified against the public project URL; the URL is also printed under it. Re-scan the printed copy. |
+| Voting available and advertised | YES / NO / YES, IF… boxes on the poster, plus “anonymous one-minute ballot, no sign-in or email.” |
+| Simple hook, not detailed analysis | One-line deal, one big number, a three-part gain / give up / who pays strip, and one-line “catch.” Arguments, sources and caveats stay on the website. |
 | Photo of poster in actual public location | PENDING — requires an actual photograph after hanging it. |
 | Display in acceptable location for one week | PENDING — record real dates and location. |
 
-The revised poster identifies the lower Snake River, the 2032 target, the taxpayer-funded 15-year package, the replacement-first condition and the uncertainty. The former generic phrase “replace their benefits” is now explained.
+The revised poster identifies the lower Snake River, the 2032 target, the taxpayer-funded 15-year package, the replacement-first condition, what is gained (about 140 miles of free-flowing river; ESA-listed salmon and steelhead), what is given up (about 900 average megawatts of hydropower and the barge route to Lewiston), who pays, and the uncertainty. The 900 aMW figure matches the 2022 final report cited on the website.
 
 ## Part 2 — Ballot initiative
 
